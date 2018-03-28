@@ -1,8 +1,24 @@
 apiVersion: v1
 entries:
+  etcd:
+  - created: 2018-03-28T12:21:10.085428699+02:00
+    description: Distributed reliable key-value store for the most critical data of
+      a distributed system.
+    digest: fd7ef785f3d208ccff608cf7096b1f9163669edca4e561bfb86de499aa6b8811
+    home: https://github.com/coreos/etcd
+    icon: https://raw.githubusercontent.com/coreos/etcd/master/logos/etcd-horizontal-color.png
+    maintainers:
+    - email: lachlan@deis.com
+      name: Lachlan Evenson
+    name: etcd
+    sources:
+    - https://github.com/coreos/etcd
+    urls:
+    - etcd-0.4.0.tgz
+    version: 0.4.0
   patroni:
   - appVersion: 1.4-p7
-    created: 2018-03-28T10:14:56.992592181+02:00
+    created: 2018-03-28T12:21:10.086410388+02:00
     description: 'Highly available elephant herd: HA PostgreSQL cluster.'
     digest: 5a14e75fb729428ec21c90eaf188cbc5427b1c30c952cddd229fe99f156a0888
     home: https://github.com/zalando/patroni
@@ -18,4 +34,4 @@ entries:
     urls:
     - patroni-0.7.tgz
     version: "0.7"
-generated: 2018-03-28T10:14:56.991381332+02:00
+generated: 2018-03-28T12:21:10.08496352+02:00
